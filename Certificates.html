@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohamed Zaheer</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a href="Experience.html">Experience</a></li>
+          <li><a href="Contacts.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Mohamed Zaheer</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+         <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+         <li><a href="About.html" onclick="toggleMenu()">About</a></li>
+         <li><a href="Project.Html" onclick="toggleMenu()">Projects</a></li>
+         <li><a href="Experience.html" onclick="toggleMenu()">Experience</a></li>
+         <li><a href="Contacts.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+</nav>
+
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Certificates</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Certificates</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Foundation of User Experience (UX) Design - 2024</h3>
+                <p>at Google and offered through Coursera</p>
+              </div>
+              <div>
+                <button
+                  class="btn btn-color-3"
+                  onclick="window.open('./assets/Coursera.pdf')"
+                >
+                  View Certificate
+                </button>
+            </article>
+            <article>
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Web Design for Beginners - 2023</h3>
+                <p>at University of Moratuwa through Online</p>
+              </div>
+              <div>
+                <button
+                  class="btn btn-color-3"
+                  onclick="window.open('./assets/Morattuwa.pdf')"
+                >
+                  View Certificate
+                </button>
+            </article>
+            <article>
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Building Safe AI Applications with Azure Content Safety and OpenAI - 2024</h3>
+                <p>at IEEE Computer Society SBS of IIT through online</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+
+<footer>
+    <p>Copyright &#169; 2024 Mohamed Zaheer. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

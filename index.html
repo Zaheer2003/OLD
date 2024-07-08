@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+ <!-- Favicons -->
+ <link rel="icon" type="image/png" sizes="32x32" href="./assets/my-pic.jpg">
+ <link rel="icon" type="image/x-icon" href="/favicon.ico">
+ 
+
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohamed Zaheer</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="About.html">About</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a href="Experience.html">Experience</a></li>
+          <li><a href="Certificates.html">Certificates</a></li>
+          <li><a href="Contacts.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohamed Zaheer</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="About.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="Project.Html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="Experience.html" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="Certificates.html" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="Contacts.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/m-pic.jpg" alt="Mohamed Zaheer profile picture" class="my-pic" />
+        <
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mohamed Zaheer</h1>
+        <p class="section__text__p2">Junior Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/MyCV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='Contacts.html'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mohamed-zaheer-335292246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Zaheer2003'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &#169; 2024 Mohamed Zaheer. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+  </html>
