@@ -30,7 +30,7 @@ a,
 
 
 /* Container for the navigation menu */
-.nav-container {
+.nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
