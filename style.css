@@ -28,6 +28,57 @@ a,
 
 /* DESKTOP NAV */
 
+
+/* Container for the navigation menu */
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Navigation menu items */
+.nav-item {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* About Me section */
+.about-me {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Image styling */
+.about-me img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Experience and Education sections */
+.section {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .nav-item {
+        font-size: 1em;
+    }
+
+    .about-me img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 nav,
 .nav-links {
   display: flex;
