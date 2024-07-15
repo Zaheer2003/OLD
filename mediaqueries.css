@@ -6,8 +6,11 @@
   .about-containers {
     flex-wrap: wrap;
   }
-  #contact,
-  #projects {
+  #about,
+  #project,
+  #experience,
+  #certificates,
+  #contacts {
     height: fit-content;
   }
 }
@@ -48,11 +51,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  #about,
-  #profile,
-  #certificate,
-  #experience,
-  #projects,
   #contact,
   footer {
     height: 40vh;
